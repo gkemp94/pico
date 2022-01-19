@@ -3,16 +3,10 @@
 :root:not([data-theme="dark"]) {
   // Document
   color-scheme: light;
-  --background-color: #{$white};
+  --background-color: #{$olaf};
 
   // Texts colors
-  --color: #{$grey-700};
-  --h1-color: #{$grey-900};
-  --h2-color: #{mix($grey-900, $grey-800)};
-  --h3-color: #{$grey-800};
-  --h4-color: #{mix($grey-800, $grey-700)};
-  --h5-color: #{$grey-700};
-  --h6-color: #{mix($grey-700, $grey-600)};
+  --color: #{$obsidian};
 
   // Muted colors
   --muted-color: #{$grey-500};
